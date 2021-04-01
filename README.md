@@ -1,0 +1,1 @@
+# pulumi-automationapi-workshop
