@@ -4,7 +4,7 @@ This workshop will guide you through the process of building an small web applic
 
 It takes inspiration and code from Komal Ali's [static site platyform](https://github.com/komalali/static-site-platyform) but uses Kubernetes as the end mechanism.
 
-## Prerequsities
+## Prerequisites
 
 Before you start with this workshop, you'll need to have the Pulumi CLI installed and be logged into the Pulumi SaaS backend to store your state.
 
