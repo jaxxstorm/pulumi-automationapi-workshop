@@ -35,6 +35,6 @@ If you need to provision a cluster, Pulumi code to do so on digital ocean can be
 
 # Acknowledgements
 
-This workshop takes a lot of inspiration and has lifted code directly from [Komal Ali's](https://github.com/komalali/) [static site platyform](https://github.com/komalali/static-site-platyform).
+This workshop takes a lot of inspiration and has lifted code directly from [Komal Ali's](https://github.com/komalali/) [self service platyform](https://github.com/komalali/self-service-platyform).
 
 
