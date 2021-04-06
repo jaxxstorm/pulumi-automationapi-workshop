@@ -58,6 +58,14 @@ import pulumi
 
 Feel free to explore the other files, although we won't be editing any of them by hand.
 
+## Step 4 &mdash; Install some dependencies
+
+We'll be using python virtualenvs shortly, but in order to ensure our autocomplete works in GitPod, we'll need to install some of the dependencies we'll be using:
+
+```bash
+pip3 install pulumi pulumi_kubernetes flask
+```
+
 # Next Steps
 
 * [Create a Kubernetes Component](../lab-02/README.md)
