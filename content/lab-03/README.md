@@ -22,8 +22,11 @@ Clear all the code you had in your `__main__.py` and add the following:
 
 ```python
 import flask
+import os
 
-app = flask.Flask(__name__)
+# references the templates in the assets dir
+template_dir = os.path.abspath('../assets/templates')
+app = flask.Flask(__name__, template_folder=template_dir)
 
 app.secret_key = "super-secret-key"
 
