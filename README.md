@@ -20,7 +20,9 @@ Once the GitPod environment has initialized, you'll need to provide a Pulumi tok
 
 ### Kubernetes
 
-You'll also need a Kubernetes cluster provisioned and running. You can check you have everything you need using `kubectl`:
+You'll also need a Kubernetes cluster provisioned and running. The Kubernetes cluster must be capable of provisioning a service with `Type=LoadBalancer`.
+
+You can check you have everything you need using `kubectl`:
 
 ```bash
 kubectl cluster-info
@@ -29,7 +31,7 @@ CoreDNS is running at https://f9a621c9-8f87-46ce-856d-662add25434a.k8s.ondigital
 ```
 
 If you're following this tutorial in a live Pulumi Workshop event, a cluster will be provided to you.
-If you need to provision a cluster, Pulumi code to do so can be found in the [infra folder](./infra).
+If you need to provision a cluster, Pulumi code to do so on digital ocean can be found in the [infra folder](./infra).
 
 # Acknowledgements
 
