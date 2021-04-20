@@ -98,8 +98,10 @@ we just need to add the routes into Flask.
 Let's start by adding the root URI, `/`. Before that, we'll need to add some dependencies. Add the following lines of code to your `__main__.py`:
 
 ```python
+import flask
+import os
 import pulumi
-from pulumi.x import automation as auto
+from pulumi import automation as auto
 from app import ProductionAppArgs, ProductionApp
 
 # we want all our deployments to go into the same stack
@@ -108,7 +110,7 @@ project_name = "deployment-platyform"
 # we use the component resource we built earlier as our Pulumi program
 def create_pulumi_program(name: str, image: str, port: int):
 	app = ProductionApp(
-		name, ProductionAppArgs(image=name, port=port)
+		name, ProductionAppArgs(image=image, port=port)
 	)
 
 """
@@ -140,7 +142,7 @@ def list_deployments():
 import flask
 import os
 import pulumi
-from pulumi.x import automation as auto
+from pulumi import automation as auto
 from app import ProductionAppArgs, ProductionApp
 
 # references the templates in the assets dir
@@ -260,7 +262,7 @@ def delete_deployment(id: str):
 import flask
 import os
 import pulumi
-from pulumi.x import automation as auto
+from pulumi import automation as auto
 from app import ProductionAppArgs, ProductionApp
 
 # references the templates and static files in the assets dir
