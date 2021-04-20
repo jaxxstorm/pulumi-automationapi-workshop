@@ -380,7 +380,7 @@ You will see the website spin as it deploys your website. We can observe the sta
 
 Once your deployment is complete, you can click the image to open the deployed website.
 
-![Deployment Platyform New](../../img/ling.png?raw=true)
+![Deployment Platyform New](../../img/link.png?raw=true)Q
 
 Finally, make sure to delete the website using the delete button.
 
