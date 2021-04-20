@@ -370,17 +370,17 @@ python3 __main__.py
 
 Open up your web browser to port 5000. You should see a website like so:
 
-IMAGE here
+![Deployment Platyform UI](../../img/ui.png?raw=true)
 
 Click, create new and fill out the boxes as required:
 
-IMAGE here
+![Deployment Platyform New](../../img/new.png?raw=true)
 
 You will see the website spin as it deploys your website. We can observe the status in the terminal from where we ran our python flask webserver.
 
 Once your deployment is complete, you can click the image to open the deployed website.
 
-IMAGE here
+![Deployment Platyform New](../../img/ling.png?raw=true)
 
 Finally, make sure to delete the website using the delete button.
 
