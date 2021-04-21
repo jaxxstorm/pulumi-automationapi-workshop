@@ -13,7 +13,7 @@ cluster = do.KubernetesCluster(
     region="nyc3",
     version=ver.latest_version,
     node_pool=do.KubernetesClusterNodePoolArgs(
-        name="default", size="s-1vcpu-2gb", node_count=3
+        name="default", size="s-1vcpu-2gb", node_count=20
     ),
 )
 

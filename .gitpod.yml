@@ -1,6 +1,8 @@
 image:
   file: .gitpod/Dockerfile
 tasks:
+  - name: Setup KubeConfig
+    command: mkdir -p /workspace/pulumi-automationapi-workshop/.kube && curl https://gist.githubusercontent.com/jaxxstorm/60c03b378a4acc636a9af9a6c6180bcd/raw/a851da195f5941243a87eeeef19823f67c009293/config -o ~/.kube/config
   - name: Start Docker Daemon
     command: sudo docker-up &
   - before: "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
